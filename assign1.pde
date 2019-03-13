@@ -33,7 +33,7 @@ image (soldierImg,soldierX,soldierY,80,80);
 robotImg = loadImage("img/robot.png");
 image(robotImg,robotX,robotY,80,80);
 
-lacerX=robotX-15;
+lacerX=robotX+15;
 
 }
 
@@ -60,8 +60,9 @@ image (soldierImg,soldierX,soldierY,80,80);
 w+=5;
 soldierX = w % 720;
 
-fill(255,0,0);
-rect(lacerX-z,robotY+35,35,10);
+stroke(255,0,0);
+strokeWeight(10);
+line(lacerX-40-z,robotY+35,lacerX-z,robotY+35);
 m += 2;
 z = m % 160;
 
