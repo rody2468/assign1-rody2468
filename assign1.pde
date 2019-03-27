@@ -64,6 +64,6 @@ stroke(255,0,0);
 strokeWeight(10);
 line(lacerX-40-z,robotY+35,lacerX-z,robotY+35);
 m += 2;
-z = m % 160;
+z = m % 120;
 
 }
