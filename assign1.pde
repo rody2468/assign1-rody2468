@@ -51,7 +51,7 @@ rect(0,145,680,15);
 image (groundhogImg,250,60,100,100);
 noStroke();
 fill(255,255,0);
-ellipse(590,50,125,125);
+ellipse(590,50,130,130);
 image(robotImg,robotX,robotY,80,80);
 
 fill(253,184,19);
