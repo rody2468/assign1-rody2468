@@ -42,8 +42,8 @@ void draw() {
 image (skyImg,0,0,640,480);
 image (soilImg,0,160,640,320);
 image (heartImg,10,10,50,50);
-image (heartImg,70,10,50,50);
-image (heartImg,130,10,50,50);
+image (heartImg,80,10,50,50);
+image (heartImg,150,10,50,50);
 noStroke();
 fill(RGB);
 fill(124,204,25);
