@@ -56,7 +56,7 @@ image(robotImg,robotX,robotY,80,80);
 
 fill(253,184,19);
 ellipse(590,50,120,120);
-image (soldierImg,soldierX,soldierY,80,80);
+image (soldierImg,-50+soldierX,soldierY,80,80);
 w+=5;
 soldierX = w % 720;
 
