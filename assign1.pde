@@ -28,7 +28,7 @@ robotY= (160+80*y);
 robotX= floor(random(160,560));
 
 soldierImg = loadImage("img/soldier.png");
-image (soldierImg,soldierX,soldierY,80,80);
+image (soldierImg,-50+soldierX,soldierY,80,80);
 
 robotImg = loadImage("img/robot.png");
 image(robotImg,robotX,robotY,80,80);
