@@ -1,4 +1,4 @@
-int soldierY,soldierX,w,z,robotX,robotY,lacerX,m;
+int soldierY,soldierX,w,z,robotX,robotY,lacerX,m,o;
 PImage soldierImg;
 PImage skyImg;  
 PImage soilImg;
@@ -62,7 +62,9 @@ soldierX = w % 720;
 
 stroke(255,0,0);
 strokeWeight(10);
-line(lacerX-40-z,robotY+35,lacerX-z,robotY+35);
+line(lacerX-25-z,robotY+37,lacerX-o-z,robotY+35);
+o+=2;
+if(o>40)o=40;
 m += 2;
 z = m % 120;
 
