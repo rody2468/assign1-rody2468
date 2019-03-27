@@ -7,7 +7,7 @@ PImage groundhogImg;
 PImage robotImg;
 
 void setup() {
-	size(640, 480, P2D);
+  size(640, 480, P2D);
 
 
 skyImg = loadImage("img/bg.jpg");
@@ -52,7 +52,7 @@ image (groundhogImg,250,60,100,100);
 noStroke();
 fill(255,255,0);
 ellipse(590,50,130,130);
-image(robotImg,robotX,robotY,80,80);
+
 
 fill(253,184,19);
 ellipse(590,50,120,120);
@@ -62,10 +62,17 @@ soldierX = w % 720;
 
 stroke(255,0,0);
 strokeWeight(10);
-line(lacerX-25-o,robotY+37,lacerX-25-o-z,robotY+37);
-o+=2;
+line(lacerX+25-m,robotY+37,lacerX+25-m+o,robotY+37);
+o +=2;
 if(o>40)o=40;
 m += 2;
-z = m % 120;
+if(m>160){
+  m=0;
+  o=0;
+  }
+  
+  image(robotImg,robotX,robotY,80,80);
+
 
 }
+
