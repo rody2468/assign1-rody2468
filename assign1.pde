@@ -62,7 +62,7 @@ soldierX = w % 720;
 
 stroke(255,0,0);
 strokeWeight(10);
-line(lacerX-25-o,robotY+37,lacerX-o-z,robotY+37);
+line(lacerX-25-o,robotY+37,lacerX-25-o-z,robotY+37);
 o+=2;
 if(o>40)o=40;
 m += 2;
